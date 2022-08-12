@@ -9,7 +9,7 @@ export default function Info() {
             <div className="infoDetails">
                 <div className="name">Sutirth Verma</div>
                 <div className="role">Frontend Developer</div>
-                <div className="website">sutierhverma.webstie</div>
+                <div className="website">github.com/sutirthverma</div>
                 <div className="connectButtons">
                     <button className="email button">
                         <img src={email} className='mailIcon icon' alt="" />
