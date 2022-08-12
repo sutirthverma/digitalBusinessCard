@@ -1,0 +1,103 @@
+.info {
+    text-align: center;
+    .profile {
+        width: 22em;
+        height: 22em;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 0.5em;
+    }
+    .infoDetails {
+        .name {
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .role {
+            color: #f3bf99;
+            margin-bottom: 0.3em;
+        }
+
+        .website {
+            margin-bottom: 1em;
+        }
+
+        .connectButtons {
+            display: flex;
+            justify-content: center;
+
+            .button {
+                width: 7.5em; 
+                height: 2.5em; 
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 0;
+                border-radius: 5px;
+            }
+
+            .email {
+                margin-right: 17px;
+            }
+
+            .linkedin {
+                background-color: #5093e2;
+                color: white;
+            }
+
+            .icon {
+                margin-right: 0.5em;
+            }
+        }
+    }
+}
+
+.interest,
+.about {
+    padding: 1em 2.25em;
+    line-height: 1.3;
+
+    .heading {
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+        font-weight: 500;
+    }
+
+    .content {
+        font-size: 0.9em;
+    }
+}
+
+.about {
+    .heading {
+        margin-top: 1em;
+    }
+}
+
+.footer {
+    background-color: #161619;
+    padding: 1em;
+    text-align: center;
+
+    > img {
+        width: 1.7em;
+        &:not(:last-child) {
+            margin-right: 1em;
+        }
+    }
+
+    .footerSocial{
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 599px) {
+    .info {
+        padding-top: 2em;
+        .profile {
+            width: 17em;
+            height: 17em;
+            border-radius: 10px;
+        }
+    }
+}

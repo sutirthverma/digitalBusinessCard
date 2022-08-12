@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-color: #1A1B21;
+  color: white;
+}
+
+@media (min-width:600px) {
+  body {
+    height: 100vh;
+  }
+
+  .App {
+    width: 22em;
+    height: 90vh;
+    border-radius: 10px;
+    overflow-y: auto;
+
+
+  }
+}

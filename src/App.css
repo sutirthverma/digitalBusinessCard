@@ -1,0 +1,90 @@
+.info {
+  text-align: center;
+}
+.info .profile {
+  width: 22em;
+  height: 22em;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0.5em;
+}
+.info .infoDetails .name {
+  font-size: 2em;
+  font-weight: 700;
+}
+.info .infoDetails .role {
+  color: #f3bf99;
+  margin-bottom: 0.3em;
+}
+.info .infoDetails .website {
+  margin-bottom: 1em;
+}
+.info .infoDetails .connectButtons {
+  display: flex;
+  justify-content: center;
+}
+.info .infoDetails .connectButtons .button {
+  width: 7.5em;
+  height: 2.5em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+}
+.info .infoDetails .connectButtons .email {
+  margin-right: 17px;
+}
+.info .infoDetails .connectButtons .linkedin {
+  background-color: #5093e2;
+  color: white;
+}
+.info .infoDetails .connectButtons .icon {
+  margin-right: 0.5em;
+}
+
+.interest,
+.about {
+  padding: 1em 2.25em;
+  line-height: 1.3;
+}
+.interest .heading,
+.about .heading {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+.interest .content,
+.about .content {
+  font-size: 0.9em;
+}
+
+.about .heading {
+  margin-top: 1em;
+}
+
+.footer {
+  background-color: #161619;
+  padding: 1em;
+  text-align: center;
+}
+.footer > img {
+  width: 1.7em;
+}
+.footer > img:not(:last-child) {
+  margin-right: 1em;
+}
+.footer .footerSocial {
+  cursor: pointer;
+}
+
+@media (max-width: 599px) {
+  .info {
+    padding-top: 2em;
+  }
+  .info .profile {
+    width: 17em;
+    height: 17em;
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=App.css.map */
